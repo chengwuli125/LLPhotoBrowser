@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		E8D5BB631F5EC7B90019B780 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5BB621F5EC7B90019B780 /* main.m */; };
 		E8D5BB661F5EC7B90019B780 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5BB651F5EC7B90019B780 /* AppDelegate.m */; };
-		E8D5BB691F5EC7B90019B780 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5BB681F5EC7B90019B780 /* ViewController.m */; };
 		E8D5BB6C1F5EC7B90019B780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D5BB6A1F5EC7B90019B780 /* Main.storyboard */; };
 		E8D5BB6E1F5EC7B90019B780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D5BB6D1F5EC7B90019B780 /* Assets.xcassets */; };
 		E8D5BB711F5EC7B90019B780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D5BB6F1F5EC7B90019B780 /* LaunchScreen.storyboard */; };
+		E8D5BB7A1F5EC9010019B780 /* PhotoEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5BB791F5EC9010019B780 /* PhotoEntryViewController.m */; };
+		E8D5BB7D1F5ECB1B0019B780 /* PhotoEntryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5BB7C1F5ECB1B0019B780 /* PhotoEntryCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		E8D5BB621F5EC7B90019B780 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8D5BB641F5EC7B90019B780 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8D5BB651F5EC7B90019B780 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E8D5BB671F5EC7B90019B780 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E8D5BB681F5EC7B90019B780 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E8D5BB6B1F5EC7B90019B780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8D5BB6D1F5EC7B90019B780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8D5BB701F5EC7B90019B780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8D5BB721F5EC7B90019B780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D5BB781F5EC9010019B780 /* PhotoEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoEntryViewController.h; sourceTree = "<group>"; };
+		E8D5BB791F5EC9010019B780 /* PhotoEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoEntryViewController.m; sourceTree = "<group>"; };
+		E8D5BB7B1F5ECB1B0019B780 /* PhotoEntryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoEntryCollectionViewCell.h; sourceTree = "<group>"; };
+		E8D5BB7C1F5ECB1B0019B780 /* PhotoEntryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoEntryCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 			children = (
 				E8D5BB641F5EC7B90019B780 /* AppDelegate.h */,
 				E8D5BB651F5EC7B90019B780 /* AppDelegate.m */,
-				E8D5BB671F5EC7B90019B780 /* ViewController.h */,
-				E8D5BB681F5EC7B90019B780 /* ViewController.m */,
+				E8D5BB781F5EC9010019B780 /* PhotoEntryViewController.h */,
+				E8D5BB791F5EC9010019B780 /* PhotoEntryViewController.m */,
+				E8D5BB7B1F5ECB1B0019B780 /* PhotoEntryCollectionViewCell.h */,
+				E8D5BB7C1F5ECB1B0019B780 /* PhotoEntryCollectionViewCell.m */,
 				E8D5BB6A1F5EC7B90019B780 /* Main.storyboard */,
 				E8D5BB6D1F5EC7B90019B780 /* Assets.xcassets */,
 				E8D5BB6F1F5EC7B90019B780 /* LaunchScreen.storyboard */,
@@ -150,7 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8D5BB691F5EC7B90019B780 /* ViewController.m in Sources */,
+				E8D5BB7D1F5ECB1B0019B780 /* PhotoEntryCollectionViewCell.m in Sources */,
+				E8D5BB7A1F5EC9010019B780 /* PhotoEntryViewController.m in Sources */,
 				E8D5BB661F5EC7B90019B780 /* AppDelegate.m in Sources */,
 				E8D5BB631F5EC7B90019B780 /* main.m in Sources */,
 			);
@@ -309,6 +315,7 @@
 				E8D5BB771F5EC7B90019B780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

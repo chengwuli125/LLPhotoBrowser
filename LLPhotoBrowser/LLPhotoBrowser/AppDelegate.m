@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "PhotoEntryViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    PhotoEntryViewController *photoEntryContro  = [PhotoEntryViewController new];
+    UINavigationController *navigationContro = [[UINavigationController alloc] initWithRootViewController:photoEntryContro];
+    
+    self.window.rootViewController = navigationContro;
+    [self.window makeKeyWindow];
     return YES;
 }
 

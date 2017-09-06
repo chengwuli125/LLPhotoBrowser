@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotoEntryViewController.h
 //  LLPhotoBrowser
 //
 //  Created by cwli on 2017/9/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PhotoEntryViewController : UIViewController
 
 @end
-
